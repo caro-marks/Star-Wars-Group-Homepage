@@ -1,0 +1,76 @@
+body {
+  font-family:Arial;
+  color: #4e566e;
+  margin: 5px;
+  background-image: url(../imgs/background.jpg);
+  background-size: cover;  
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.438);
+  border-radius: 9999999px;
+  overflow: unset;
+  display: flex;
+}
+#base-lightsaber{
+  width: 30%;
+  background-color: #6A6A68;
+  border-top-left-radius: 9999999px;
+  border-bottom-left-radius: 9999999px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#luz-lightsaber{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  background-color: red;
+  border-top-right-radius: 9999999px;
+  border-bottom-right-radius: 9999999px;
+  box-shadow: 10px 5px 10px rgb(255, 52, 52), 10px -5px 10px rgb(255, 32, 32);
+}
+#luz-lightsaber img{
+  border-radius: 50%;
+  margin: 15px;
+}
+header h3 {
+  margin-left: 15px;
+  color: #F7D01F;
+}
+
+.main {
+    
+  margin: 0 auto;
+  width: 800px;  
+  text-align: center;    
+  display: block;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 70px;
+  margin: 30px auto;
+  
+}
+.container h3 {
+  color: #F7D01F;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.664);
+}
+p {
+  padding-bottom: 30px;
+}
+.join {
+  margin: 30px auto;
+  color: #F7D01F;
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
